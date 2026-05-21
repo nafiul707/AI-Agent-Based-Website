@@ -1,0 +1,102 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.case-studies {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    font-size: 16px;
+    color: #aaaaaa;
+    margin-bottom: 40px;
+}
+
+.tag-fintech { background-color: #ff9800; }
+.btn-fintech { background-color: #ff9800; }
+
+.tag-edtech { background-color: #1565c0; }
+.btn-edtech { background-color: #1565c0; }
+
+.tag-pharma { background-color: #00897b; }
+.btn-pharma { background-color: #00897b; }
+
+.case-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.case-card.reverse {
+    flex-direction: row-reverse;
+}
+
+.case-card.reverse .case-content {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.case-content {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.case-card img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.tag{
+    display: inline-block;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.case-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.case-content p {
+    font-size: 0.95rem;
+    color: #aaaaaa;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.case-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.case-content a:hover {
+    background-color: #555555;
+}
