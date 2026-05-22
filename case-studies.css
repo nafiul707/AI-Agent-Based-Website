@@ -5,6 +5,45 @@ body {
     color: #ffffff;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    margin: 10px 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #4caf50;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 .case-studies {
     padding: 60px 40px;
     text-align: center;
@@ -20,15 +59,6 @@ body {
     color: #aaaaaa;
     margin-bottom: 40px;
 }
-
-.tag-fintech { background-color: #ff9800; }
-.btn-fintech { background-color: #ff9800; }
-
-.tag-edtech { background-color: #1565c0; }
-.btn-edtech { background-color: #1565c0; }
-
-.tag-pharma { background-color: #00897b; }
-.btn-pharma { background-color: #00897b; }
 
 .case-card {
     display: flex;
@@ -62,9 +92,8 @@ body {
     border-radius: 8px;
 }
 
-.tag{
+.tag {
     display: inline-block;
-    background-color: #333333;
     color: #ffffff;
     padding: 4px 12px;
     border-radius: 20px;
@@ -72,6 +101,10 @@ body {
     font-weight: 600;
     margin-bottom: 15px;
 }
+
+.tag-fintech { background-color: #ff9800; }
+.tag-edtech  { background-color: #1565c0; }
+.tag-pharma  { background-color: #00897b; }
 
 .case-content h3 {
     font-size: 1.5rem;
@@ -88,7 +121,6 @@ body {
 .case-content a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333333;
     color: #ffffff;
     text-decoration: none;
     border-radius: 6px;
@@ -97,6 +129,11 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.case-content a:hover {
-    background-color: #555555;
-}
+.btn-fintech { background-color: #ff9800; }
+.btn-fintech:hover { background-color: #c08e42; }
+
+.btn-edtech { background-color: #1565c0; }
+.btn-edtech:hover { background-color: #0d47a1; }
+
+.btn-pharma { background-color: #00897b; }
+.btn-pharma:hover { background-color: #00695c; }
