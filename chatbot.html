@@ -3,30 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARIA - NexAgent Assistant</title>
     <link rel="stylesheet" href="chatbot.css">
-    <title>chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Floating Button -->
-<div class="chat-toggle" id="chatToggle">
-    💬
-</div>
 
-<!-- Chat Window -->
+<div class="chat-toggle" id="chatToggle">💬</div>
+
 <div class="chat-window" id="chatWindow">
     <div class="chat-header">
-        <h3>🤖 ARIA</h3>
-        <p>NexAgent AI Assistant</p>
+        <div>
+            <h3>🤖 ARIA</h3>
+            <p>NexAgent AI Assistant</p>
+        </div>
         <button id="closeChat">✕</button>
     </div>
-    <div class="chat-messages" id="chatMessages">
-        <!-- messages appear here -->
-    </div>
+    <div class="chat-messages" id="chatMessages"></div>
     <div class="chat-input">
         <input type="text" id="userInput" placeholder="Ask ARIA anything...">
         <button id="sendBtn">➤</button>
     </div>
 </div>
+
 <script src="chatbot.js"></script>
 </body>
 </html>
